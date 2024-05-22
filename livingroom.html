@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home Automation</title>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+
+        <script src = "script.js"></script>
+        <link rel="stylesheet" type="text/css" href ="styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <div class="navbar">
+                    <div class="menu border"><i class="fa-solid fa-bars"></i></div>
+                    <div class="livingroom border"><i class="fa-solid fa-couch"></i> <a class="html" href="livingroom.html">Livingroom</div>
+                    <div class="dinningroom border"><i class="fa-solid fa-bowl-food"></i><a class="html" href="diningroom.html">Dining room</div>
+                    <div class="bedroom border"><i class="fa-solid fa-bed"></i> <a class="html" href="bedroom.html">Bedroom</div>
+                    <div class="bathroom border"><i class="fa-solid fa-shower"></i><a class="html" href="bathroom.html"> Bathroom</div>
+                </div>
+            </header>
+        <div class = "wrapper">
+            <a class = "icon1" ></a>
+            <div class = "progress">
+                <h1>Lights</h1>
+                <div class = "toggle-btn" id ="unact">
+                    <div class = "inner-circle"></div>
+                </div>
+                <div class = "toggle-btn active" id ="act">
+                    <div class = inner-circle></div>
+                </div>
+            </div>
+            
+        </div>
+        <footer>
+        </br>
+            <div class="footercontent"><p>&copy;Home Automation System. All rights reserved</p></div>
+    
+        </footer>   
+    </body>
+</html>

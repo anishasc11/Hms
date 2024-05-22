@@ -1,0 +1,259 @@
+*{
+    color:aliceblue;
+}
+.navbar{
+    height:70px;
+    width:1400px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color:black;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:gold;
+}
+h1{
+   color: #000;
+}
+.border{
+    border:1.5px solid transparent
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.hero-section{
+    background-image: url(bg_img2.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.transparent-box p {
+   color: #000; /* Dark black text */
+   text-align: center;
+   margin: 0;
+}
+
+html,body{
+   height: 100%;
+   margin: 0;
+   padding: 0;
+}
+.content{
+   min-height: calc(100vh - 50px);
+   padding: 20px;
+   box-sizing: border-box;
+}   
+
+.box1{
+    margin-top:500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: large;
+    height:400px;
+    width:18%;
+    background-color:rgba(0,0,0, 0.5);
+    bottom: 0;
+ }
+.html{
+   text-decoration: none;
+ }
+ .toggle-button{
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 25px;
+    color:orange;
+ }
+ .temperature{
+    display:flex;
+ }
+ .angle{
+    margin-left: 55px;
+ }
+ .mode{
+    margin-top: 80px;
+    display: flex;
+ }
+ .s_mode{
+    margin-left:180px;
+    border:1.5px solid white;
+    border-radius: 8px;
+ }
+ .off{
+    display: flex;
+    margin-top: 40px;
+ }
+ .s_off{
+    margin-left:130px;
+    border:1.5px solid white;
+    border-radius: 8px;
+ }
+ .wind{
+   display: flex;
+   margin-top: 40px;
+}
+.s_wind{
+   margin-left:150px;
+   border:1.5px solid white;
+   border-radius: 8px;
+}
+.box2{
+   height: 200px;
+   width:18%;
+   background-color:rgba(251, 249, 249, 0.5);
+   border:1.5px solid white;
+}
+.toggle-button2{
+   margin-left: 140px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.toggle-curtains{
+   margin-left: 160px;
+   margin-top: 2px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.curtains{
+   color: black;
+   margin-top: 40px;
+   display: flex;
+}
+.toggle-refrigerator{
+   margin-left: 140px;
+   margin-top: 2px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.Lights{
+   color: black;
+   margin-top: 40px;
+   display: flex;
+}
+.refrigerator{
+   color: black;
+   margin-top: 40px;
+   display: flex;
+}
+.box3{
+   margin-left:960px;
+   height: 200px;
+   width:18%;
+   background-color:rgb(0,0,0,0.5);
+   border:1.5px solid white;
+   
+}
+.toggle-mute{
+   margin-left: 180px;
+   margin-top: 2px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.play{
+   margin-top: 40px;
+}
+
+.spotify_icon{
+   margin-left: 130px;
+   font-size: larger;
+   color: green;
+   font-weight: 400;
+}
+.pause{
+   margin-left: 10px;
+}
+.song{
+   margin-top: 40px;
+}
+.box4{
+   height: 200px;
+   width:18%;
+   background-color:rgb(0,0,0,0.5);
+   border:1.5px solid white;
+   margin-left: 0px;
+
+}
+footer{
+   height: 100px;
+   width: 100%;
+   background-color: black;
+}
+.footercontent{
+   display: flex;
+   justify-content:center;
+   
+}
+.social-links{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+ul{
+   list-style: none;
+}
+.wrapper{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.progress{
+   margin: 30px auto;
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.toggle-btn{
+   width: 80px;
+   height: 40px;
+   background: gray;
+   border-radius: 30px;
+   padding: 5px;
+   transition: all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle{
+   width: 40px;
+   height: 40px;
+   background: white;
+   border-radius: 50%;
+   transition: all 300ms ease-in-out;
+}
+.toggle-btn.active{
+   background: #21ecf3;
+   box-shadow: 0 0 10px #21ecf3, 0 0 40px #21ecf3, 0 0 80px #21ecf3;
+   transition-delay:0.5s;
+}
+.toggle-btn.active> .inner-circle{
+   margin-left: 40px;
+}
+.icon1{	
+  color: #070000;
+  margin: 10px auto;
+}
+.transparent-box {
+   background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+   width: 300px;
+   height: 300px;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   text-size-adjust:;
+   padding-left: 25%;
+   padding-right: 50%;
+   text-size-adjust:12px ;
+}
